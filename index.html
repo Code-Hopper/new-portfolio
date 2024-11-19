@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio site 1</title>
+
+    <!-- bootstrap css and js  -->
+    <link rel="stylesheet" href="./vendors/bootstrap-5/css/bootstrap.css">
+    <script src="./vendors/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+    <!-- fontawesome -->
+    <!-- <link rel="stylesheet" href="./vendors/fontawesome/fontawesome-free-6.7.0-web/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+
+    <!-- custom css and js -->
+    <link rel="stylesheet" href="./assets/styles/main.css">
+
+</head>
+
+<body>
+
+    <!-- header stars -->
+
+    <section id="header">
+
+        <div class="container-fluid bg-black">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-black">
+                    <!-- logo -->
+                    <div class="navbar-brand text-light d-flex align-items-center gap-2">
+                        <div class="bg-warning rounded-circle position-relative" style="width: 40px; height: 40px;">
+                            <i
+                                class="text-dark fontawesome-family fa-solid fa-code position-absolute start-50 top-50 translate-middle"></i>
+                        </div>
+                        <span>Code-<span class="fw-bolder text-warning">Hopper</span></span>
+                    </div>
+                    <!-- menu -->
+
+                    <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#main-menu">
+                        <i class="text-warning fontawesome-family fa-solid fa-bars"></i>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" id="main-menu">
+                        <div class="offcanvas-header bg-dark text-light">
+                            <span class="fw-bolder fs-3">Main-menu</span>
+                            <button class="btn btn-close bg-danger" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body bg-black text-center">
+                            <ul class="navbar-nav m-auto" id="nav-main-menu-1">
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">Home</a>
+                                </li>
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">Services</a>
+                                </li>
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">Projects</a>
+                                </li>
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">Blogs</a>
+                                </li>
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">About Me</a>
+                                </li>
+                                <li class="nav-items">
+                                    <a class="nav-link text-light" href="">Testimonials</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- navbar-cta -->
+
+                    <div class="navbar-cta d-none d-md-inline-block">
+                        <button class="btn btn-warning fw-bolder rounded-pill px-5">
+                            Let's Talk
+                        </button>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- header end -->
+
+</body>
+
+<script src="./assets/scripts/main.js"></script>
+
+</html>
