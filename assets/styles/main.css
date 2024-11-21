@@ -31,3 +31,16 @@
 }
 
 /* header end */
+
+/* heros starts */
+
+.heros-main-container{
+    background: var(--bs-dark);
+    overflow: hidden;
+}
+
+.heros-img-main{
+    width: 600px;
+}
+
+/* heros ends */
